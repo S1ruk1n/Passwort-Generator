@@ -1,0 +1,106 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background-color: #10323b;
+    text-align: center;
+   
+}
+
+.slider{
+    width: 70%;
+    height: 10px;
+   border-radius: 15px;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .slider:hover{
+    opacity: 0.5;
+  }
+  
+  .slider::-webkit-slider-thumb{
+    width: 15px;
+    height: 15px;
+    background: #f40505;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .action-btn{
+    background-color: rgb(7, 7, 7);
+    border: 0;
+    color: #f9c004;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 20px;
+    border-radius: 15px;
+    font-family: fantasy;
+    opacity: 1;
+    transition: opacity .2s;
+  }
+
+  .action-btn:hover{
+      opacity: 0.5;
+  }
+
+  .hintergrund{
+      display: flex;
+      background-color: rgb(199, 199, 197);
+      flex-direction: column;
+      width: 40%;
+      margin-top: 30%;
+      margin-left: 32%;
+      border-radius: 15px;
+      font-family: fantasy;
+      padding-bottom: 10%;
+  }
+  
+  .slider_main{
+      display: flex;
+      flex-direction: row;
+      }
+    
+    output{
+      margin-top: 20px;
+      margin-left: 10px;
+      }
+
+      .hintergrund_M
+      {
+        display: flex;
+        background-color: rgb(253, 253, 252);
+        flex-direction: row;
+        width: 22%;
+        margin-top: 5%;
+        margin-left: 38%;
+        border-radius: 15px;
+        font-family: Georgia, serif;
+        padding-left: 45px;
+        
+      }
+
+      .clipboard{
+        margin-left: auto;
+        cursor: pointer;
+        border: 0;
+        background-color: rgb(240, 225, 225);
+        color:black;
+        box-shadow: 10px 0px 10px rgb(15, 1, 1);
+        border-radius: 15px;
+       font-size: 23px;
+       opacity: 1;
+       transition: opacity .2s;
+      
+      }
+
+      .clipboard:hover{
+          opacity: 0.5;
+      } 
